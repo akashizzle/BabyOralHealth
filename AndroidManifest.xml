@@ -25,7 +25,11 @@
         </activity>
         <activity
             android:name="com.example.babyoralhealth.AgeActivity"
-            android:label="@string/title_activity_age" >
+            android:label="@string/title_activity_age"
+            android:parentActivityName="com.example.babyoralhealth.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.babyoralhealth.MainActivity" />
         </activity>
     </application>
 

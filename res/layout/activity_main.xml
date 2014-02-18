@@ -39,6 +39,7 @@
         android:layout_marginRight="32dp"
         android:drawableTop="@drawable/ic_action_forward"
         android:background="?android:attr/selectableItemBackground"
+        android:onClick="nextPage"
         android:text="@string/next" />
 
 </RelativeLayout>

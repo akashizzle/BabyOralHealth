@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">BabyOralHealth</string>
+    <string name="app_name">Welcome!</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="description">Splash Screen</string>
     <string name="welcome">Welcome</string>
     <string name="next">Get started</string>
-    <string name="title_activity_age">AgeActivity</string>
-
+    <string name="title_activity_age">Age</string>
+    <string name="howOld">How old</string>
+    <string name="isYourBaby">is your baby?</string>
+    <string name="back">Back</string>
+    <string name="forward">Next</string>
+    
+    <string-array name="babyAge">
+        <item>Expecting</item>
+        <item>&#60; 6 months</item>
+        <item>6 &#45; 12 months</item>
+        <item>1 &#45; 2 years</item>
+        <item>3 &#45; 4 years</item>
+        <item>5 &#45; 6 years</item>
+        <item>7 &#45; 10 years</item>
+    </string-array>
 </resources>

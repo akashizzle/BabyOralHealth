@@ -1,8 +1,9 @@
 package com.example.babyoralhealth;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class AgeActivity extends Activity {
 
@@ -17,6 +18,10 @@ public class AgeActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.age, menu);
 		return true;
+	}
+	
+	public void goBack(View view){
+		onBackPressed();
 	}
 
 }
