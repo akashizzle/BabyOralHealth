@@ -26,7 +26,16 @@ SIXMO-NINEMO:
 
 "First teeth may erupt at this stage.\n
 Important to visit the dentist within six months of first teething.\n
-Teething may be accompanied by pain in the gums, mild fever, rash around the mouth and ear infections."
+Teething may be accompanied by pain in the gums, mild fever, rash around the mouth and ear infections.
+
+After first teeth come into mouth:
+- brush with soft bristled toothbush with small head
+- use baby teeth clensing gel with no F
+- brushing teeth is to remove plaque
+- should ideally brush after each meal
+- brushing should be long enough to clean plaque from all tooth surfaces
+- must supervise at all times
+"
 
 ONEYR-TWOYR:
 
@@ -34,6 +43,8 @@ ONEYR-TWOYR:
 All front teeth and most back teeth should be in by now."
 
 THREEYR-FOURYR:
+
+
 
 
 FOURYR-SIXYR:
