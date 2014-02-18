@@ -18,6 +18,8 @@ public enum Symptoms {
 ZERO
 
 SIXMO
+"Example\n
+Example"
 
 NINEMO
 
