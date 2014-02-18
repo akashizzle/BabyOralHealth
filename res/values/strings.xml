@@ -13,6 +13,7 @@
     <string name="back">Back</string>
     <string name="forward">Next</string>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <string name="dentist">Has the child ever visited the dentist?</string>
     <string name="oui">Yes</string>
     <string name="non">No</string>
@@ -20,6 +21,9 @@
 =======
         
 >>>>>>> 0f9f4dfcd26250a315647683877768f7ada5eed8
+=======
+        
+>>>>>>> 384ce99676b419631c6270a285324add1bf7dd30
     <string-array name="babyAge">
         <item>Expecting</item>
         <item>&#60; 6 months</item>
