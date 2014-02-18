@@ -1,5 +1,6 @@
 public enum Age {
-    ZERO, SIXMO, NINEMO, ONEYR, TWOYR, FOURYR, SIXYR, TENYR
+    ZERO, SIXMO-NINEMO, ONEYR-TWOYR, 
+    THREEYR-FOURYR, FOURYR-SIXYR, SEVENYR-TENYR
 }
 
 public enum Teeth {
@@ -15,23 +16,31 @@ public enum Symptoms {
 }
 
 //---------------
-ZERO
+ZERO:
+"Healthy pregnancy is important for healthy baby teeth:\n
+So visit doctor frequently, eat balanced meals, have enough calcium,\n
+avoid medicine without prescription, no cigarettes and no alcoholic drinks"
 
-SIXMO
-"Example\n
-Example"
 
-NINEMO
+SIXMO-NINEMO:
 
-ONEYR
+"First teeth may erupt at this stage.\n
+Important to visit the dentist within six months of first teething.\n
+Teething may be accompanied by pain in the gums, mild fever, rash around the mouth and ear infections."
 
-TWOYR
-FOURYR
-SIXYR
-TENYR
-FIVE
-TEN
-MORETEN
+ONEYR-TWOYR:
+
+"Child should have 8-12 teeth at now. Gaps between baby teeth is OK. \n
+All front teeth and most back teeth should be in by now."
+
+THREEYR-FOURYR:
+
+
+FOURYR-SIXYR:
+
+SEVENYR-TENYR:
+
+
 YES
 NO
 NONE
