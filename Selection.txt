@@ -14,5 +14,25 @@ public enum Symptoms {
     NONE, SOME
 }
 
+//---------------
+ZERO
+
+SIXMO
+
+NINEMO
+
+ONEYR
+
+TWOYR
+FOURYR
+SIXYR
+TENYR
+FIVE
+TEN
+MORETEN
+YES
+NO
+NONE
+SOME
 
 
