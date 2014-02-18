@@ -12,25 +12,17 @@
     <string name="isYourBaby">is your baby?</string>
     <string name="back">Back</string>
     <string name="forward">Next</string>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <string name="dentist">Has the child ever visited the dentist?</string>
     <string name="oui">Yes</string>
     <string name="non">No</string>
     
-=======
-        
->>>>>>> 0f9f4dfcd26250a315647683877768f7ada5eed8
-=======
-        
->>>>>>> 384ce99676b419631c6270a285324add1bf7dd30
     <string-array name="babyAge">
         <item>Expecting</item>
         <item>&#60; 6 months</item>
-        <item>6 &#45; 12 months</item>
-        <item>1 &#45; 2 years</item>
-        <item>3 &#45; 4 years</item>
-        <item>5 &#45; 6 years</item>
-        <item>7 &#45; 10 years</item>
+        <item>6 &#8211; 12 months</item>
+        <item>1 &#8211; 2 years</item>
+        <item>3 &#8211; 4 years</item>
+        <item>5 &#8211; 6 years</item>
+        <item>7 &#8211; 10 years</item>
     </string-array>
 </resources>
