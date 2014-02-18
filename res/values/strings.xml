@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Welcome!</string>
+	
+    <string name="app_name">Baby App</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="description">Splash Screen</string>
@@ -12,7 +12,14 @@
     <string name="isYourBaby">is your baby?</string>
     <string name="back">Back</string>
     <string name="forward">Next</string>
+<<<<<<< HEAD
+    <string name="dentist">Has the child ever visited the dentist?</string>
+    <string name="oui">Yes</string>
+    <string name="non">No</string>
     
+=======
+        
+>>>>>>> 0f9f4dfcd26250a315647683877768f7ada5eed8
     <string-array name="babyAge">
         <item>Expecting</item>
         <item>&#60; 6 months</item>
