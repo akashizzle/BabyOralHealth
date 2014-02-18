@@ -4,5 +4,9 @@
     <string name="app_name">BabyOralHealth</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="description">Splash Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="next">Get started</string>
+    <string name="title_activity_age">AgeActivity</string>
 
 </resources>
