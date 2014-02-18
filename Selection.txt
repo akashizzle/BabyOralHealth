@@ -1,1 +1,18 @@
-Data
+public enum Age {
+    ZERO, SIXMO, NINEMO, ONEYR, TWOYR, FOURYR, SIXYR, TENYR
+}
+
+public enum Teeth {
+    FIVE, TEN, MORETEN
+}
+
+public enum Visit {
+    YES, NO
+}
+
+public enum Symptoms {
+    NONE, SOME
+}
+
+
+
