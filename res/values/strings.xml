@@ -12,16 +12,12 @@
     <string name="isYourBaby">is your baby?</string>
     <string name="back">Back</string>
     <string name="forward">Next</string>
-<<<<<<< HEAD
     <string name="lastvisit_q">When was your last visit to the dentist?</string>
     <string name="howlong">How long ago?</string>
-        
-=======
-    <string name="dentist">Has the child ever visited the dentist?</string>
-    <string name="oui">Yes</string>
     <string name="non">No</string>
+    <string name="oui">Yes</string>
+    <string name="dentist">Has the child ever visited the dentist?</string>
     
->>>>>>> 6f285e4602f045c794c5c0ddfdef0d5beb94393a
     <string-array name="babyAge">
         <item>Expecting</item>
         <item>&#60; 6 months</item>
@@ -38,4 +34,6 @@
         <item>12 months</item>
         <item>&gt; 2 yrs</item>
     </string-array>
+    
+
 </resources>
