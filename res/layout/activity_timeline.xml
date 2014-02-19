@@ -30,6 +30,13 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/zeroSix"
 	        android:textSize="25sp" />
+        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/teethingBegins"
+		        android:textSize="15sp" />
 
         <TextView
 	        android:id="@+id/textView2"
@@ -42,7 +49,7 @@
 		        android:id="@+id/textView1"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:text="@string/visit Dentist"
+		        android:text="@string/visitDentist"
 		        android:textSize="15sp" />
         
         <TextView

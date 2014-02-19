@@ -49,7 +49,8 @@
     <string name="twoFour">2 to 4 years</string>
     <string name="fourSix">4 to 6 years</string>
     <string name="sixTen">6 to 10 years</string>
-    <string name="visitDentist">Baby should have visited dentist by this time.</string>
+    <string name="teethingBegins">5 months: Teething begins around this time.</string>
+    <string name="visitDentist">1 year: Baby should have visited dentist by this time.</string>
     <string name="allTeeth">3 years: Baby should have full set of teeth.</string>
 
     <string-array name="babyAge">
