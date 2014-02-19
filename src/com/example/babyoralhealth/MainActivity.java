@@ -1,5 +1,6 @@
 package com.example.babyoralhealth;
 //android:background="?android:attr/selectableItemBackground"
+//Toast.makeText(getApplicationContext(), Integer.toString(w), Toast.LENGTH_LONG).show();
 import java.io.File;
 
 import android.app.Activity;
@@ -15,7 +16,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     	File babyFile = new File(this.getApplicationContext().getFilesDir(), "baby");
-    	//Manager.readData(babyFile);
+    	Manager.readData(babyFile);
     }
 
 
@@ -27,8 +28,13 @@ public class MainActivity extends Activity {
     }
     
     public void nextPage(View view){
-    	Intent agePageIntent = new Intent(this, AgeActivity.class);
-    	startActivity(agePageIntent);
+    	if (Manager.getBabyList().isEmpty()) {
+	    	Intent agePageIntent = new Intent(this, AgeActivity.class);
+	    	startActivity(agePageIntent);
+    	}
+    	else{
+    		
+    	}
     }
     
 }

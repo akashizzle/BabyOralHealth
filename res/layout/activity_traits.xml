@@ -6,18 +6,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".DentistActivity" >
+    tools:context=".TraitsActivity" >
 
-	<TextView
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="18dp"
-        android:text="@string/hasYourBaby"
+        android:text="@string/doesYourBaby"
         android:textColor="@color/blue"
-        android:textSize="40sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -25,9 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:text="@string/everVisted"
+        android:text="@string/exhibitTheFollowing"
         android:textColor="@color/blue"
-        android:textSize="40sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -35,9 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:text="@string/aDentist"
+        android:text="@string/checkAll"
         android:textColor="@color/blue"
-        android:textSize="40sp" />
+        android:textSize="15sp" />
 
         <Button
             android:id="@+id/button2"
@@ -65,26 +65,55 @@
             android:onClick="goBack"
             android:text="@string/back" />
 
-        <RadioGroup
-            android:id="@+id/radioGroup1"
+        <LinearLayout
+            android:id="@+id/linearLayout1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textView3"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="40dp" >
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
 
-            <RadioButton
-                android:id="@+id/radio0"
+            <CheckBox
+                android:id="@+id/checkBox0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="@string/yes" />
+                android:text="@string/cavities" />
 
-            <RadioButton
-                android:id="@+id/radio1"
+            <CheckBox
+                android:id="@+id/checkBox1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/no" />
-        </RadioGroup>
+                android:text="@string/traumaToTeeth" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ababyGrowth" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ibabyGrowth" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gumPain" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unalignedBite" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teethDiscolourization" />
+        </LinearLayout>
 
 </RelativeLayout>

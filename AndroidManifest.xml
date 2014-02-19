@@ -32,6 +32,39 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.babyoralhealth.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.babyoralhealth.TeethActivity"
+            android:label="@string/title_activity_teeth"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.babyoralhealth.AgeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.babyoralhealth.DentistActivity"
+            android:label="@string/title_activity_dentist"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.babyoralhealth.TeethActivity" />
+        </activity>
+        <activity
+            android:name="com.example.babyoralhealth.LastVisitActivity"
+            android:label="@string/title_activity_last_visit"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.babyoralhealth.DentistActivity" />
+        </activity>
+        <activity
+            android:name="com.example.babyoralhealth.TraitsActivity"
+            android:label="@string/title_activity_traits"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.babyoralhealth.DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
     </application>
 
 </manifest>

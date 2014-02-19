@@ -3,13 +3,13 @@ package com.example.babyoralhealth;
 import java.util.List;
 
 public class Baby {
-	private int age;
-	private int teeth;
-	private boolean dentist;
-	private List<Integer> traits;
-	private int lastVisit;
+	private String age;
+	private String teeth;
+	private String dentist;
+	private String lastVisit;
+	private List<String> traits;
 	
-	public Baby(int age, int teeth, boolean dentist, int lastVisit, List <Integer> traits){
+	public Baby(String age, String teeth, String dentist, String lastVisit, List <String> traits){
 		this.age = age;
 		this.teeth = teeth;
 		this.dentist = dentist;
@@ -17,44 +17,43 @@ public class Baby {
 		this.lastVisit = lastVisit;
 	}
 
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 
-	public int getTeeth() {
+	public String getTeeth() {
 		return teeth;
 	}
 
-	public void setTeeth(int teeth) {
+	public void setTeeth(String teeth) {
 		this.teeth = teeth;
 	}
 
-	public boolean isDentist() {
+	public String getDentist() {
 		return dentist;
 	}
 
-	public void setDentist(boolean dentist) {
+	public void setDentist(String dentist) {
 		this.dentist = dentist;
 	}
 
-	public List<Integer> getTraits() {
-		return traits;
-	}
-
-	public void setTraits(List<Integer> traits) {
-		this.traits = traits;
-	}
-
-	public int getLastVisit() {
+	public String getLastVisit() {
 		return lastVisit;
 	}
 
-	public void setLastVisit(int lastVisit) {
+	public void setLastVisit(String lastVisit) {
 		this.lastVisit = lastVisit;
 	}
-	
+
+	public List<String> getTraits() {
+		return traits;
+	}
+
+	public void setTraits(List<String> traits) {
+		this.traits = traits;
+	}
 }
