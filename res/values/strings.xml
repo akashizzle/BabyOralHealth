@@ -41,8 +41,8 @@
     <string name="unalignedBite">Unaligned bite</string>
     <string name="doesYourBaby">Does your baby</string>
     <string name="exhibitTheFollowing">exhibit the following?</string>
-    <string name="checkAll">(Check all that applies)</string>
-    <string name="test">Test</string>
+    <string name="checkAll">(Check all that apply)</string>
+    <string name="timeline">Timeline</string>
 
     <string-array name="babyAge">
         <item>I\'m expecting</item>
