@@ -9,7 +9,7 @@ public enum Teeth {
 
 public enum Visit {
     YES, NO
-}
+    }
 
 public enum Symptoms {
     NONE, SOME
@@ -19,41 +19,67 @@ public enum Symptoms {
 ZERO:
 "Healthy pregnancy is important for healthy baby teeth:\n
 So visit doctor frequently, eat balanced meals, have enough calcium,\n
-avoid medicine without prescription, no cigarettes and no alcoholic drinks"
+avoid medicine without prescription, no cigarettes and no alcoholic drinks."
 
 
 SIXMO-NINEMO:
 
-"First teeth may erupt at this stage.\n
+"When no teeth:\n
+- wipe gum with damp cloth after meals/feedings. \n
+
+First teeth may erupt at this stage.\n
 Important to visit the dentist within six months of first teething.\n
 Teething may be accompanied by pain in the gums, mild fever, rash around the mouth and ear infections.
 
-After first teeth come into mouth:
-- brush with soft bristled toothbush with small head
-- use baby teeth clensing gel with no F
-- brushing teeth is to remove plaque
-- should ideally brush after each meal
-- brushing should be long enough to clean plaque from all tooth surfaces
-- must supervise at all times
+After first teeth come into mouth:\n
+- brush with soft bristled toothbush with small head.
+- use baby teeth clensing gel with no F.
+- brushing teeth is to remove plaque.
+- should ideally brush after each meal.
+- brushing should be long enough to clean plaque from all tooth surfaces.
+- must supervise at all times.
 "
 
 ONEYR-TWOYR:
 
 "Child should have 8-12 teeth at now. Gaps between baby teeth is OK. \n
-All front teeth and most back teeth should be in by now."
+All front teeth and most back teeth should be in by now.\n
+
+Fluoride:\n 
+- Drinking fluoridated water may build resistant to dental decay.\n
+- However, overuse increases chances of defects on the growing permenant teeth.\n
+
+Training cup should be used only when child needs to drink - long time usage may produce tooth decay."
 
 THREEYR-FOURYR:
 
+"Total of 20 baby teeth at this point. Normal and healthy baby teeth ensures healthy adult teeth.\n
+Well balanced diet is important. Starchy and sticky food causes cavities.\n
 
-
+Toothpaste with fluoride should be used, no more than a small pea sized amount."
 
 FOURYR-SIXYR:
 
+"Normal and healthy baby teeth ensures healthy adult teeth./n
+Well balanced diet is important. Starchy and sticky food causes cavities.\n
+Sucking habit is normal for young children, but should be stopped by 3 years.\n
+Beyond 4 yrs, sucking can cause open teeth /n
+and crooked bites and will not be naturally corrected; dental treatment is warranted."
+
 SEVENYR-TENYR:
 
+"Regular dental visits.\n
+Normal and healthy baby teeth ensures healthy adult teeth.\n
+Well balanced diet is important. Starchy and sticky food causes cavities."
 
-YES
-NO
+YES: 
+
+"Continue regular dental visits."
+
+NO:
+
+"Visit the dentist ASAP!"
+
 NONE
 SOME
 
