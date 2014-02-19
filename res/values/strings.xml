@@ -60,6 +60,7 @@
     <string name="canines">18 months: Upper and lower canines begin to emerge.</string>
     <string name="secondMolars">Upper and lower second molars emerge.</string>
     <string name="allTeeth">3 years: Baby should have full set of teeth.</string>
+    <string name="dentistWarning">Warning: Please visit your dentist as soon as possible.</string>
 
     <string-array name="babyAge">
         <item>I\'m expecting</item>
