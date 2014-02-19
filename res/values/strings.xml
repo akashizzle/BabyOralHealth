@@ -50,7 +50,15 @@
     <string name="fourSix">4 to 6 years</string>
     <string name="sixTen">6 to 10 years</string>
     <string name="teethingBegins">5 months: Teething begins around this time.</string>
+    <string name="firstTeeth">8 months: First teeth begin to erupt.</string>
+    <string name="upperIncisors">10 months: Upper central incisors emerge.</string>
+    <string name="lowerIncisors">11 months: Lower lateral incisors emerge.</string>
+    <string name="upperLaterals">12 months: Upper lateral incisors emerge.</string>
+    <string name="noTeeth">1 year: If the baby still has no teeth by the first birthday, contact your dentist.</string>
     <string name="visitDentist">1 year: Baby should have visited dentist by this time.</string>
+    <string name="molars">15 months: Upper and lower molars begin to emerge</string>
+    <string name="canines">18 months: Upper and lower canines begin to emerge.</string>
+    <string name="secondMolars">Upper and lower second molars emerge.</string>
     <string name="allTeeth">3 years: Baby should have full set of teeth.</string>
 
     <string-array name="babyAge">

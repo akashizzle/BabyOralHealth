@@ -32,10 +32,17 @@
 	        android:textSize="25sp" />
         
 	        <TextView
-		        android:id="@+id/textView1"
+		        android:id="@+id/textView3"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:text="@string/teethingBegins"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/firstTeeth"
 		        android:textSize="15sp" />
 
         <TextView
@@ -44,6 +51,35 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/sixTwelve"
 	        android:textSize="25sp" />
+        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/upperIncisors"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/lowerIncisors"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/upperLaterals"
+		        android:textSize="15sp" />
+        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/red"
+		        android:text="@string/noTeeth"
+		        android:textSize="15sp" />
         
 	        <TextView
 		        android:id="@+id/textView1"
@@ -59,12 +95,33 @@
 	        android:text="@string/oneTwo"
 	        android:textSize="25sp" />
         
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/molars"
+		        android:textSize="15sp" />
+	        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/canines"
+		        android:textSize="15sp" />
+        
         <TextView
 	        android:id="@+id/textView1"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/twoFour"
 	        android:textSize="25sp" />
+        
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/secondMolars"
+		        android:textSize="15sp" />
         
 	        <TextView
 		        android:id="@+id/textView1"
