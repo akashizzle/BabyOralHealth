@@ -42,6 +42,7 @@
     <string name="doesYourBaby">Does your baby</string>
     <string name="exhibitTheFollowing">exhibit the following?</string>
     <string name="checkAll">(Check all that applies)</string>
+    <string name="test">Test</string>
 
     <string-array name="babyAge">
         <item>I\'m expecting</item>
